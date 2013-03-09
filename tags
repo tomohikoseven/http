@@ -1,0 +1,64 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BLOCK_BUF_SIZE	main.c	18;"	d	file:
+FileInfo	main.c	/^struct FileInfo$/;"	s	file:
+HTTPHeaderField	main.c	/^struct HTTPHeaderField$/;"	s	file:
+HTTPRequest	main.c	/^struct HTTPRequest$/;"	s	file:
+HTTP_MINOR_VERSION	main.c	17;"	d	file:
+LINE_BUF_SIZE	main.c	19;"	d	file:
+MAX_REQUEST_BODY_LENGTH	main.c	20;"	d	file:
+SERVER_NAME	main.c	15;"	d	file:
+SERVER_VERSION	main.c	16;"	d	file:
+TIME_BUF_SIZE	main.c	21;"	d	file:
+body	main.c	/^    char    *body;$/;"	m	struct:HTTPRequest	file:
+build_fspath	main.c	/^build_fspath$/;"	f	file:
+chk_doc_root	main.c	/^chk_doc_root$/;"	f	file:
+content_length	main.c	/^content_length$/;"	f	file:
+dbg	main.c	24;"	d	file:
+dbg	main.c	26;"	d	file:
+do_file_response	main.c	/^do_file_response$/;"	f	file:
+free_fileinfo	main.c	/^free_fileinfo$/;"	f	file:
+free_request	main.c	/^free_request$/;"	f	file:
+getRequestMethod	main.c	/^getRequestMethod$/;"	f	file:
+getRequestPath	main.c	/^getRequestPath$/;"	f	file:
+getRequestProtocolMinVersion	main.c	/^getRequestProtocolMinVersion$/;"	f	file:
+get_fileinfo	main.c	/^get_fileinfo$/;"	f	file:
+guess_content_type	main.c	/^guess_content_type(struct FileInfo *info)$/;"	f	file:
+header	main.c	/^    struct HTTPHeaderField  *header;$/;"	m	struct:HTTPRequest	typeref:struct:HTTPRequest::HTTPHeaderField	file:
+install_signal_handlers	main.c	/^install_signal_handlers$/;"	f	file:
+length	main.c	/^    long    length;$/;"	m	struct:HTTPRequest	file:
+log_exit	main.c	/^log_exit$/;"	f	file:
+lookup_header_field_value	main.c	/^lookup_header_field_value$/;"	f	file:
+main	docroot/hello.c	/^main()$/;"	f
+main	main.c	/^main$/;"	f
+method	main.c	/^    char    *method;$/;"	m	struct:HTTPRequest	file:
+method_not_allowed	main.c	/^method_not_allowed(struct HTTPRequest *req, FILE *out)$/;"	f	file:
+name	main.c	/^    char    *name;$/;"	m	struct:HTTPHeaderField	file:
+next	main.c	/^    struct HTTPHeaderField *next;$/;"	m	struct:HTTPHeaderField	typeref:struct:HTTPHeaderField::HTTPHeaderField	file:
+not_found	main.c	/^not_found(struct HTTPRequest *req, FILE *out)$/;"	f	file:
+not_implemented	main.c	/^not_implemented(struct HTTPRequest *req, FILE *out)$/;"	f	file:
+ok	main.c	/^    int  ok;        \/* Do exists file? yes:not 0, no:0 *\/$/;"	m	struct:FileInfo	file:
+openBody	main.c	/^openBody$/;"	f	file:
+outputBodyFields	main.c	/^outputBodyFields$/;"	f	file:
+output_common_header_fields	main.c	/^output_common_header_fields$/;"	f	file:
+path	main.c	/^    char    *path;$/;"	m	struct:HTTPRequest	file:
+path	main.c	/^    char *path;     \/* file path *\/$/;"	m	struct:FileInfo	file:
+protocol_minor_version	main.c	/^    int     protocol_minor_version;$/;"	m	struct:HTTPRequest	file:
+readBody	main.c	/^readBody$/;"	f	file:
+readWriteBody	main.c	/^readWriteBody$/;"	f	file:
+read_header_field	main.c	/^read_header_field$/;"	f	file:
+read_request	main.c	/^read_request$/;"	f	file:
+read_request_line	main.c	/^read_request_line$/;"	f	file:
+respond_to	main.c	/^respond_to$/;"	f	file:
+service	main.c	/^service$/;"	f	file:
+signal_exit	main.c	/^signal_exit$/;"	f	file:
+size	main.c	/^    long size;      \/* file size *\/$/;"	m	struct:FileInfo	file:
+trap_signal	main.c	/^trap_signal$/;"	f	file:
+upcase	main.c	/^upcase$/;"	f	file:
+usage	main.c	/^usage$/;"	f	file:
+value	main.c	/^    char    *value;$/;"	m	struct:HTTPHeaderField	file:
+xmalloc	main.c	/^xmalloc$/;"	f	file:
