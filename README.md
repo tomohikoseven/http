@@ -22,7 +22,7 @@
 > andre@andre-VirtualBox:~/work/http$ ./main docroot  
 >  
 >   Electric Fence 2.1 Copyright (C) 1987-1998 Bruce Perens.  
-> GET hello.c HTTP/1.0  
+> \>GET hello.c HTTP/1.0  
 > (Enter)  
 > HTTP/1.0 200 OK  
 > Date: Sat, 09 Mar 2013 23:37:31 GMT  
