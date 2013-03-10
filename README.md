@@ -17,23 +17,23 @@
  $ sudo apt-get install scons  
 
 # 動作例
-andre@andre-VirtualBox:~/work/http$ ./main docroot  
-  
-  Electric Fence 2.1 Copyright (C) 1987-1998 Bruce Perens.  
+>andre@andre-VirtualBox:~/work/http$ ./main docroot  
+>  
+>  Electric Fence 2.1 Copyright (C) 1987-1998 Bruce Perens.  
 >GET hello.c HTTP/1.0  
-(Enter)  
-HTTP/1.0 200 OK  
-Date: Sat, 09 Mar 2013 23:37:31 GMT  
-Server: LittleHTTP/1.0  
-Connection: close  
-Content-Length: 71  
-Content-Type: text/plain  
-  
-#include<stdio.h>  
-  
-int  
-main()  
-{  
-    printf("hello\n");  
-    return 0;  
-}
+>(Enter)  
+>HTTP/1.0 200 OK  
+>Date: Sat, 09 Mar 2013 23:37:31 GMT  
+>Server: LittleHTTP/1.0  
+>Connection: close  
+>Content-Length: 71  
+>Content-Type: text/plain  
+>  
+>#include<stdio.h>  
+>  
+>int  
+>main()  
+>{  
+>    printf("hello\n");  
+>    return 0;  
+>}
