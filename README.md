@@ -3,11 +3,13 @@
 そのときの生成物を置く。
 
 # 主要ファイル
-* main.c            HTTPサーバ本体  
-* docroot           wwwドキュメントルート  
-* docroot/hello.c   wwwドキュメント  
-* SConstruct        ビルドに必要なファイル  
-* splint.sh         splintで静的チェックしようとした残骸
+|ファイル名      |概要                                    |
+|----------------|----------------------------------------|
+| main.c         |   HTTPサーバ本体                       |
+| docroot        |   wwwドキュメントルート                |
+| docroot/hello.c|   wwwドキュメント                      |
+| SConstruct     |   ビルドに必要なファイル               |
+| splint.sh      |   splintで静的チェックしようとした残骸 |
 
 # ビルド方法
  main.c および SConstruct があるカレントディレクトリで以下を実行する。  
